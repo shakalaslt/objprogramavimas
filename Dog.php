@@ -23,11 +23,17 @@ class Dog {
 
 public function walk ($where){
 
+	echo $this->owner . "is walking with" . $this->name . "<br>";
+
 }
 public function eat($what){
 
+	echo $this->name . "is eating shit";
+
 }
 public function sleep($where){
+
+	echo $this->name . "sleep in house";
 
 }
 public function destroy($what){
