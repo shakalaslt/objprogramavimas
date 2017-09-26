@@ -1,6 +1,7 @@
 <?php
 include "Car.php";
-
+include "Dog.php";
+/*
 $mindes_automobilis = new Car("RAP 001", "Minda");
 
 
@@ -42,7 +43,14 @@ echo $mindes_automobilis->license;
 echo "<br>";
 
 echo $marytes_automobilis->owner;
+*/
 
+$mindes_suo->owner =
+$mindes_suo->name =
+$mindes_suo->color =
+$mindes_suo->furr =
+$mindes_suo->size =
+$mindes_suo->weight =
 
 
 //var_dump($mindes_automobilis);
