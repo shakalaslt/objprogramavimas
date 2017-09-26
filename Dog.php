@@ -28,8 +28,12 @@ public function walk ($where){
 }
 public function eat($what){
 
+	echo $this->name . "is eating shit";
+
 }
 public function sleep($where){
+
+	echo $this->name . "sleep in house";
 
 }
 public function destroy($what){
