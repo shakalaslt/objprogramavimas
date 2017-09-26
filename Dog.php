@@ -23,6 +23,8 @@ class Dog {
 
 public function walk ($where){
 
+	echo $this->owner . "is walking with" . $this->name . "<br>";
+
 }
 public function eat($what){
 

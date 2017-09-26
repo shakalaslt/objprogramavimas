@@ -1,7 +1,8 @@
 <?php
 include "Car.php";
+include "Dog.php";
 
-$mindes_automobilis = new Car("RAP 001", "Minda");
+/* $mindes_automobilis = new Car("RAP 001", "Minda");
 
 
 $mindes_automobilis->color = "red";
@@ -45,4 +46,13 @@ echo $marytes_automobilis->owner;
 
 
 
+
+
 //var_dump($mindes_automobilis);
+*/
+$mindes_suo->owner = "Minda";
+$mindes_suo->name = "Sudukas";
+$mindes_suo->color = "red";
+$mindes_suo->furr = "ryza";
+$mindes_suo->size = "didelis";
+$mindes_suo->weight = "storas";
